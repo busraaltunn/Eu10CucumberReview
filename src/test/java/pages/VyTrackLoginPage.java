@@ -21,4 +21,7 @@ public class VyTrackLoginPage {
     public WebElement submitBtn;
 
 
+    @FindBy(xpath = "//div[.='Invalid user name or password.']")
+    public WebElement message;
+
 }
